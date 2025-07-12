@@ -19,8 +19,8 @@ const servicesData = [
   // },
   {
     id: 2,
-    type: 'video',
-    src: '/video/m2.mp4',
+    type: 'image',
+    src: '/images/c1.avif',
     title: 'Chambre meublé',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
@@ -30,7 +30,7 @@ const servicesData = [
     {
     id: 3,
     type: 'image',
-    src: '/images/image7.jpg',
+    src: '/images/c3.avif',
     title: 'Chambre moderne',
     price: '75 000 000 FCFA',
     location: 'Douala, Bonamoussadi',
@@ -38,8 +38,8 @@ const servicesData = [
   },
   {
     id: 4,
-    type: 'video',
-    src: '/video/m2.mp4',
+    type: 'image',
+    src: '/images/c5.mp4',
     title: 'Chambre meublé',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
@@ -49,7 +49,7 @@ const servicesData = [
     {
     id: 5,
     type: 'image',
-    src: '/images/hall6.avif',
+    src: '/images/c8.avif',
     title: 'Chambre moderne',
     price: '75 000 000 FCFA',
     location: 'Douala, Bonamoussadi',
@@ -57,8 +57,8 @@ const servicesData = [
   },
   {
     id: 6,
-    type: 'video',
-    src: '/video/m2.mp4',
+    type: 'image',
+    src: '/images/c8.avif',
     title: 'Chambre meublé',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
@@ -76,8 +76,8 @@ const servicesData = [
   },
   {
     id: 8,
-    type: 'video',
-    src: '/video/m2.mp4',
+    type: 'images ',
+    src: 'images/c10.avif',
     title: 'Chambre meublé',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
@@ -87,7 +87,7 @@ const servicesData = [
     {
     id: 9,
     type: 'image',
-    src: '/images/hall.avif',
+    src: '/images/c9.jpg',
     title: 'Chambre moderne',
     price: '75 000 000 FCFA',
     location: 'Douala, Bonamoussadi',
@@ -95,8 +95,8 @@ const servicesData = [
   },
   {
     id: 10,
-    type: 'video',
-    src: '/video/m2.mp4',
+    type: 'images ',
+    src: 'images/c78.jpg',
     title: 'Chambre meublé',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
@@ -106,7 +106,7 @@ const servicesData = [
     {
     id: 11,
     type: 'image',
-    src: '/images/h5.avif',
+    src: '/images/c98.jpg',
     title: 'Chambre moderne',
     price: '75 000 000 FCFA',
     location: 'Douala, Bonamoussadi',
@@ -114,8 +114,8 @@ const servicesData = [
   },
   {
     id: 12,
-    type: 'video',
-    src: '/video/m2.mp4',
+    type: 'images ',
+    src: 'images/c.avif',
     title: 'Chambre meublé',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
@@ -133,8 +133,8 @@ const servicesData = [
   },
   {
     id: 14,
-    type: 'video',
-    src: '/video/m2.mp4',
+    type: 'images ',
+    src: 'images /c.avif',
     title: 'Chambre meublé',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
@@ -152,8 +152,8 @@ const servicesData = [
   },
   {
     id: 16,
-    type: 'video',
-    src: '/video/m2.mp4',
+    type: 'images ',
+    src: 'images/c.avif',
     title: 'Chambre meublé',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
@@ -171,8 +171,8 @@ const servicesData = [
   },
   {
     id: 18,
-    type: 'video',
-    src: '/video/m2.mp4',
+    type: 'images ',
+    src: 'images /c.avif',
     title: 'Chambre meublé',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
@@ -190,8 +190,8 @@ const servicesData = [
   },
   {
     id: 20,
-    type: 'video',
-    src: '/video/m2.mp4',
+    type: 'images',
+    src: 'images/c5.avif',
     title: 'Chambre meublé',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
@@ -323,9 +323,9 @@ const generatePDF = (service) => {
             {item.type === 'image' ? (
               <img src={item.src} alt={item.title} />
             ) : (
-              <video controls>
-                <source src={item.src} type="video/mp4" />
-              </video>
+              <images  controls>
+                <source src={item.src} type="images /mp4" />
+              </images >
             )}
             <h3>{item.title}</h3>
             <p><strong>Prix :</strong> {item.price}</p>
