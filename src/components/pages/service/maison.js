@@ -57,10 +57,10 @@ const servicesData = [
   },
   {
     id: 6,
-    type: 'video',
-    src: '/video/m2.mp4',
+    type: 'image',
+    src: '/images/image3.jpg',
     title: 'Maison Classique',
-    price: '350 000 FCFA/mois',
+    price: '195 500 FCFA/mois',
     location: 'Yaoundé, Bastos',
     description: '02 chambres avec cuisine équipée un salon.',
   },
@@ -95,8 +95,8 @@ const servicesData = [
   },
   {
     id: 10,
-    type: 'video',
-    src: '/video/m2.mp4',
+    type: 'image',
+    src: '/images/image2.jpg',
     title: 'Appartement moderne avec staff',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
@@ -144,7 +144,7 @@ const servicesData = [
     {
     id: 15,
     type: 'image',
-    src: '/images/h4.avif',
+    src: '/images/h1.avif',
     title: 'Maison moderne',
     price: '200 000 FCFA',
     location: 'Bafoussam quartier toket',
@@ -154,7 +154,7 @@ const servicesData = [
   {
     id: 16,
     type: 'image',
-    src: '/images/h1.avif',
+    src: '/images/h8.avif',
     title: 'Maison Classique',
     price: '80 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
@@ -179,6 +179,16 @@ const servicesData = [
     price: '150 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
     description: ' 2 chambres avec cuisine équipée.',
+  },
+
+    {
+    id: 19,
+    type: 'image',
+    src: '/images/image1.jpg',
+    title: 'Maison',
+    price: '150 000 FCFA/mois',
+    location: 'Bamenda',
+    description: ' 2 chambres avec cuisine équipée et un salon.',
   },
 
 ];
