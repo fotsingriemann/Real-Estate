@@ -1,0 +1,183 @@
+@keyframes fadeInZoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.head {
+  animation: fadeInZoom 0.6s ease-out;
+}
+
+p{
+  font-size: 20px;
+}
+
+.title-head h2{
+  font-size: 100px;
+  color: green;
+
+}
+
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #333;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+
+.about-container h1 {
+  font-size: 50px;
+  margin-bottom: 1rem;
+  color: #007BFF;
+  text-align: center;
+}
+
+.about-container h2 {
+  font-size: 45px;
+  /* margin-top: 2rem; */
+  margin-bottom: 0.5rem;
+  color: #0056b3;
+  color: rgb(3, 34, 3);
+  text-align: center;
+}
+
+.img{
+  height:130px;
+  width:200px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.img-choix{
+    height:130px;
+  width:200px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.p{
+  font-size: 20px;
+}
+.about-container ul {
+  padding-left: 1.2rem;
+}
+
+.about-container ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Header visuel */
+.head {
+  margin-top: 68px;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Titres dans le header */
+.title-head {
+  color: white;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: clamp(1.8rem, 5vw, 2.5rem);
+  text-align: center;
+  padding-top: 50px;
+}
+
+.text-light {
+  color: white;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: clamp(1.2rem, 4vw, 1.5rem);
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Icônes ou images alignées */
+.img-choix,
+.img-argent,
+.img-suivi,
+.img-news {
+  width: 400px;
+  height: 200px;
+  border-radius: 4px;
+  /* margin: 10px auto; */
+  display: block;
+}
+
+.title1{
+text-align: center;
+font-size: 2px;
+}
+/* Section d’en-tête */
+.header {
+  margin: 40px 0 10px 0;
+  /* text-align: center; */
+}
+
+/* Marge autour de la section about */
+.about-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mission{
+  font-size: 50px;
+}
+
+.body{
+  margin-top: 30px;
+}
+
+img{
+  max-width: 300px;
+}
+
+/* Responsive tablettes */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .head {
+    height: 350px;
+  }
+}
+
+/* Responsive téléphones */
+@media (max-width: 480px) {
+  .about-container h1 {
+    font-size: 1.5rem;
+    
+  }
+
+  .about-container h2 {
+    font-size:100px;
+    color: black;
+  }
+
+  .text-light {
+    font-size: 1.1rem;
+  }
+
+  .head {
+    height: 280px; 
+}
+  }

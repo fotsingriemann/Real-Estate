@@ -1,0 +1,389 @@
+@keyframes fadeInZoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.head {
+  animation: fadeInZoom 0.6s ease-out;
+}
+
+.services-container {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+  margin-bottom: 30px;
+  color: #1F3B4D;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.service-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.service-card:hover {
+  transform: scale(1.02);
+}
+
+.media {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+  text-align: left;
+}
+
+.price {
+  font-weight: bold;
+  color: #007BFF;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  color: #555;
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.location svg {
+  margin-right: 5px;
+}
+
+.description {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.like-btn, .comment-btn {
+  background-color: #3b444d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.like-btn:hover, .comment-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.detail-link {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  max-width: 500px;
+  width: 90%;
+  border-radius: 8px;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background: red;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+/* modal css */
+
+.service-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.contain-comment{
+    display: grid;
+}
+
+
+.service-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 15px;
+}
+
+.service-card img, .service-card video {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+form {
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 6px;
+}
+
+.comment-list {
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 90%;
+}
+
+.btn-submit{
+    margin: 10px;
+
+}
+
+.modal-content button{
+color: #f9f9f9;
+background-color: #007BFF;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 14px;
+border-radius: 5px;
+width: 70px;
+height: 30px;
+padding-bottom: 20px;
+box-shadow: #007BFF;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 8px 8px;
+  background-color: #1d9b4b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-right: 180px;
+}
+
+.whatsapp-button:hover {
+  background-color: #128C7E;
+}
+
+
+/* css de la pagination */
+
+.pagination {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pagination button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  background: #e0e0e0;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background: #007bff;
+  color: white;
+  font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.infinite-loader {
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+
+/* planification */
+.visit-button {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.modal-content form input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* fichier PDF contrat de bail */
+.btn-generate {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* css de recherhce */
+.filter-form {
+  background: #f5f5f5;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.filter-form form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filter-form input,
+.filter-form select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  flex: 1;
+  min-width: 160px;
+}
+
+.whatsapp-button,
+.email-button {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  user-select: none;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Bouton WhatsApp vert */
+.whatsapp-button {
+  background-color: #25d366;
+  margin-right: 10px;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe5b;
+}
+
+/* Bouton Email bleu */
+.email-button {
+  background-color: #0072c6;
+    margin-right: 10px;
+}
+
+.email-button:hover {
+  background-color: #005a9e;
+}
+
+
+/* css du formulaire des informations du client */
+.contract-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.contract-form input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
