@@ -29,7 +29,7 @@ const RendezVous = () => {
     }
 
     try {
-      const response = await fetch(`${'http://109.199.107.125:5001'}/rendezvous`, {
+      const response = await fetch(`${'https://bi.lewootrack.com'}/rendezvous`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)

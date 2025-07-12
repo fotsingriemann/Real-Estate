@@ -303,7 +303,7 @@ const generatePDF = async (service, buyer) => {
   formData.append('email', buyer.email);
 
   try {
-    const res = await fetch(`${'http://109.199.107.125:5001'}/contratRoutes`, { 
+    const res = await fetch(`${'https://bi.lewootrack.com'}/contratRoutes`, { 
       method: 'POST',
       body: formData,
     });

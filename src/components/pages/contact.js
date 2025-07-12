@@ -46,7 +46,7 @@ function Contact() {
     if (Object.keys(validationErrors).length === 0) {
       try {
         setLoading(true);
-        const response = await fetch(`${'http://109.199.107.125:5001'}/avis`, {
+        const response = await fetch(`${'https://bi.lewootrack.com'}/avis`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(form),
