@@ -74,6 +74,10 @@ const Dashboard = ({ open, onClose }) => {
           <FaClipboardList /> Annonces
         </Link>
 
+        <Link to="/service/appartement" className="sidebar-item">
+          <FaClipboardList /> Publier un bien
+        </Link>
+
         {/* Modal pour les annonces consultées */}
         <GenericModal
           isOpen={activeModal === "annonces"}
