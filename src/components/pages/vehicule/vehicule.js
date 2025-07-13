@@ -18,7 +18,7 @@ const servicesData = [
     title: 'Mitsubishi Pajero ',
     price: '7 500 000 FCFA',
     location: 'Douala, Bonamoussadi',
-  
+description: 'moteur diesel , roue 100% caoutchouc, equipements disponible',
     statut: "A vendre"
   },
   {
@@ -39,7 +39,7 @@ const servicesData = [
     title: 'Mitsubishi Pajero ',
     price: '50 000 FCFA',
     location: 'Douala, Bonamoussadi',
-  
+description: 'moteur diesel , roue 100% caoutchouc, equipements disponible',
     statut: "A louer"
   },
   {
@@ -60,7 +60,7 @@ const servicesData = [
     title: 'Mitsubishi Pajero ',
     price: '75 000 000 FCFA',
     location: 'Douala, Bonamoussadi',
-  
+description: 'moteur diesel , roue 100% caoutchouc, equipements disponible',
     statut: "A vendre"
   },
   {
@@ -81,7 +81,7 @@ const servicesData = [
     title: 'Mitsubishi Pajero ',
     price: '100 000 FCFA',
     location: 'Douala, Bonamoussadi',
-  
+description: 'moteur diesel , roue 100% caoutchouc, equipements disponible',
     statut: "A louer"
   },
   {
@@ -102,7 +102,7 @@ const servicesData = [
     title: 'Mitsubishi Pajero ',
     price: '75 000 000 FCFA',
     location: 'Douala, Bonamoussadi',
-  
+description: 'moteur diesel , roue 100% caoutchouc, equipements disponible',
     statut: "A louer"
   },
   {
@@ -123,7 +123,7 @@ const servicesData = [
     title: 'Mitsubishi Pajero ',
     price: '75 000 000 FCFA',
     location: 'Douala, Bonamoussadi',
-  
+description: 'moteur diesel , roue 100% caoutchouc, equipements disponible',
     statut: "A vendre"
   },
   {
@@ -144,7 +144,7 @@ const servicesData = [
     title: 'Mitsubishi Pajero ',
     price: '75 000 000 FCFA',
     location: 'Douala, Bonamoussadi',
-  
+description: 'moteur diesel , roue 100% caoutchouc, equipements disponible',
     statut: "A louer"
   },
   {
@@ -165,7 +165,7 @@ const servicesData = [
     title: 'Mitsubishi Pajero ',
     price: '75 000 000 FCFA',
     location: 'Douala, Bonamoussadi',
-  
+description: 'moteur diesel , roue 100% caoutchouc, equipements disponible',
     statut: "A vendre"
   },
   {
@@ -186,7 +186,7 @@ const servicesData = [
     title: 'Mitsubishi Pajero ',
     price: '75 000 000 FCFA',
     location: 'Douala, Bonamoussadi',
-  
+description: 'moteur diesel , roue 100% caoutchouc, equipements disponible',
     statut: "A louer"
   },
   {
@@ -207,7 +207,7 @@ const servicesData = [
     title: 'Mitsubishi Pajero ',
     price: '75 000 000 FCFA',
     location: 'Douala, Bonamoussadi',
-  
+description: 'moteur diesel , roue 100% caoutchouc, equipements disponible',
     statut: "A Vendre"
   },
   {
@@ -227,7 +227,7 @@ const servicesData = [
     title: 'Mitsubishi Pajero ',
     price: '75 000 000 FCFA',
     location: 'Douala, Bonamoussadi',
-  
+description: 'moteur diesel , roue 100% caoutchouc, equipements disponible',
     statut: "A Vendre"
   },
 
