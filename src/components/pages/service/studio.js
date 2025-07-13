@@ -19,7 +19,7 @@ const servicesData = [
   // },
   {
     id: 2,
-    type: 'video',
+    type: 'image',
     src: '/video/m2.mp4',
     title: 'Studio meublé',
     price: '350 000 FCFA/mois',
@@ -38,7 +38,7 @@ const servicesData = [
   },
   {
     id: 4,
-    type: 'video',
+    type: 'image',
     src: '/video/m2.mp4',
     title: 'Studio Classique',
     price: '350 000 FCFA/mois',
@@ -57,7 +57,7 @@ const servicesData = [
   },
   {
     id: 6,
-    type: 'video',
+    type: 'image',
     src: '/video/m2.mp4',
     title: 'Studio meublé',
     price: '350 000 FCFA/mois',
@@ -76,7 +76,7 @@ const servicesData = [
   },
   {
     id: 8,
-    type: 'video',
+    type: 'image',
     src: '/video/m2.mp4',
     title: 'Studio meublé',
     price: '350 000 FCFA/mois',
@@ -95,7 +95,7 @@ const servicesData = [
   },
   {
     id: 10,
-    type: 'video',
+    type: 'image',
     src: '/video/m2.mp4',
     title: 'Studio classique',
     price: '350 000 FCFA/mois',
@@ -114,7 +114,7 @@ const servicesData = [
   },
   {
     id: 12,
-    type: 'video',
+    type: 'image',
     src: '/video/m2.mp4',
     title: 'Studio classique',
     price: '350 000 FCFA/mois',
@@ -133,7 +133,7 @@ const servicesData = [
   },
   {
     id: 14,
-    type: 'video',
+    type: 'image',
     src: '/video/m2.mp4',
     title: 'Studio classique',
     price: '350 000 FCFA/mois',
@@ -152,7 +152,7 @@ const servicesData = [
   },
   {
     id: 16,
-    type: 'video',
+    type: 'image',
     src: '/video/m2.mp4',
     title: 'Studio classique',
     price: '350 000 FCFA/mois',
@@ -171,7 +171,7 @@ const servicesData = [
   },
   {
     id: 18,
-    type: 'video',
+    type: 'image',
     src: '/video/m2.mp4',
     title: 'Studio meublé',
     price: '350 000 FCFA/mois',
@@ -190,7 +190,7 @@ const servicesData = [
   },
   {
     id: 20,
-    type: 'video',
+    type: 'image',
     src: '/video/m2.mp4',
     title: 'Studio meublé',
     price: '350 000 FCFA/mois',
@@ -200,7 +200,7 @@ const servicesData = [
 
     {
     id: 21,
-    type: 'video',
+    type: 'image',
     src: '/video/m2.mp4',
     title: 'Studio meublé',
     price: '350 000 FCFA/mois',
@@ -210,7 +210,7 @@ const servicesData = [
 
 {
     id: 22,
-    type: 'video',
+    type: 'image',
     src: '/video/m2.mp4',
     title: 'Studio meublé',
     price: '350 000 FCFA/mois',

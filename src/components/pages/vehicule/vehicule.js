@@ -16,9 +16,9 @@ const servicesData = [
     type: 'image',
     src: '/images/moto/moto1.avif',
     title: 'Mitsubishi Pajero ',
-    price: '75 000 000 FCFA',
+    price: '7 500 000 FCFA',
     location: 'Douala, Bonamoussadi',
-    description: 'Maison 4 chambres, 3 douches, salon spacieux.',
+  
     statut: "A vendre"
   },
   {
@@ -28,7 +28,7 @@ const servicesData = [
     title: 'KAWASAKI KLE 500',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+ 
     statut: "A vendre"
   },
 
@@ -37,9 +37,9 @@ const servicesData = [
     type: 'image',
     src: '/images/moto/moto2.avif',
     title: 'Mitsubishi Pajero ',
-    price: '10 000 000 FCFA',
+    price: '50 000 FCFA',
     location: 'Douala, Bonamoussadi',
-    description: 'Maison 4 chambres, 3 douches, salon spacieux.',
+  
     statut: "A louer"
   },
   {
@@ -47,9 +47,9 @@ const servicesData = [
     type: 'image',
     src: '/images/moto/moto4.avif',
     title: 'KAWASAKI KLE 500',
-    price: '350 000 FCFA/mois',
+    price: '350 000 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+ 
     statut: "A vendre"
   },
 
@@ -60,7 +60,7 @@ const servicesData = [
     title: 'Mitsubishi Pajero ',
     price: '75 000 000 FCFA',
     location: 'Douala, Bonamoussadi',
-    description: 'Maison 4 chambres, 3 douches, salon spacieux.',
+  
     statut: "A vendre"
   },
   {
@@ -68,9 +68,9 @@ const servicesData = [
     type: 'image',
     src: '/images/moto/moto6.avif',
     title: 'KAWASAKI KLE 500',
-    price: '350 000 FCFA/mois',
+    price: '67 000000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+ 
     statut: "A vendre"
   },
 
@@ -79,9 +79,9 @@ const servicesData = [
     type: 'image',
     src: '/images/moto/moto8.avif',
     title: 'Mitsubishi Pajero ',
-    price: '75 000 000 FCFA',
+    price: '100 000 FCFA',
     location: 'Douala, Bonamoussadi',
-    description: 'Maison 4 chambres, 3 douches, salon spacieux.',
+  
     statut: "A louer"
   },
   {
@@ -89,9 +89,9 @@ const servicesData = [
     type: 'image',
     src: '/images/moto/moto9.avif',
     title: 'KAWASAKI KLE 500',
-    price: '350 000 FCFA/mois',
+    price: '400 000 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+ 
     statut: "A vendre"
   },
 
@@ -102,7 +102,7 @@ const servicesData = [
     title: 'Mitsubishi Pajero ',
     price: '75 000 000 FCFA',
     location: 'Douala, Bonamoussadi',
-    description: 'Maison 4 chambres, 3 douches, salon spacieux.',
+  
     statut: "A louer"
   },
   {
@@ -112,7 +112,7 @@ const servicesData = [
     title: 'KAWASAKI KLE 500',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+ 
     statut: "A louer"
   },
 
@@ -123,7 +123,7 @@ const servicesData = [
     title: 'Mitsubishi Pajero ',
     price: '75 000 000 FCFA',
     location: 'Douala, Bonamoussadi',
-    description: 'Maison 4 chambres, 3 douches, salon spacieux.',
+  
     statut: "A vendre"
   },
   {
@@ -133,7 +133,7 @@ const servicesData = [
     title: 'KAWASAKI KLE 500',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+ 
     statut: "A louer"
   },
 
@@ -144,7 +144,7 @@ const servicesData = [
     title: 'Mitsubishi Pajero ',
     price: '75 000 000 FCFA',
     location: 'Douala, Bonamoussadi',
-    description: 'Maison 4 chambres, 3 douches, salon spacieux.',
+  
     statut: "A louer"
   },
   {
@@ -154,7 +154,7 @@ const servicesData = [
     title: 'KAWASAKI KLE 500',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+ 
     statut: "A vendre"
   },
 
@@ -165,7 +165,7 @@ const servicesData = [
     title: 'Mitsubishi Pajero ',
     price: '75 000 000 FCFA',
     location: 'Douala, Bonamoussadi',
-    description: 'Maison 4 chambres, 3 douches, salon spacieux.',
+  
     statut: "A vendre"
   },
   {
@@ -175,7 +175,7 @@ const servicesData = [
     title: 'KAWASAKI KLE 500',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+ 
     statut: "A louer"
   },
 
@@ -186,7 +186,7 @@ const servicesData = [
     title: 'Mitsubishi Pajero ',
     price: '75 000 000 FCFA',
     location: 'Douala, Bonamoussadi',
-    description: 'Maison 4 chambres, 3 douches, salon spacieux.',
+  
     statut: "A louer"
   },
   {
@@ -196,7 +196,7 @@ const servicesData = [
     title: 'KAWASAKI KLE 500',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+ 
     statut: "A louer"
   },
 
@@ -207,7 +207,7 @@ const servicesData = [
     title: 'Mitsubishi Pajero ',
     price: '75 000 000 FCFA',
     location: 'Douala, Bonamoussadi',
-    description: 'Maison 4 chambres, 3 douches, salon spacieux.',
+  
     statut: "A Vendre"
   },
   {
@@ -217,7 +217,7 @@ const servicesData = [
     title: 'KAWASAKI KLE 500',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+ 
     statut: "A louer"
   },
     {
@@ -227,7 +227,7 @@ const servicesData = [
     title: 'Mitsubishi Pajero ',
     price: '75 000 000 FCFA',
     location: 'Douala, Bonamoussadi',
-    description: 'Maison 4 chambres, 3 douches, salon spacieux.',
+  
     statut: "A Vendre"
   },
 
