@@ -24,7 +24,7 @@ const servicesData = [
     title: 'Studio meublé',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+    description: 'Studio 02 Chambre 01 salon.',
   },
 
     {
@@ -43,7 +43,7 @@ const servicesData = [
     title: 'Studio Classique',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+    description: 'Studio 02 Chambre 01 salon.',
   },
 
     {
@@ -62,7 +62,7 @@ const servicesData = [
     title: 'Studio meublé',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+    description: 'Studio 02 Chambre 01 salon.',
   },
 
     {
@@ -81,7 +81,7 @@ const servicesData = [
     title: 'Studio meublé',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+    description: 'Studio 02 Chambre 01 salon.',
   },
 
     {
@@ -100,7 +100,7 @@ const servicesData = [
     title: 'Studio classique',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+    description: 'Studio 02 Chambre 01 salon.',
   },
 
     {
@@ -119,7 +119,7 @@ const servicesData = [
     title: 'Studio classique',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+    description: 'Studio 02 Chambre 01 salon.',
   },
 
     {
@@ -138,7 +138,7 @@ const servicesData = [
     title: 'Studio classique',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+    description: 'Studio 02 Chambre 01 salon.',
   },
 
     {
@@ -157,7 +157,7 @@ const servicesData = [
     title: 'Studio classique',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+    description: 'Studio 02 Chambre 01 salon.',
   },
 
     {
@@ -176,7 +176,7 @@ const servicesData = [
     title: 'Studio meublé',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+    description: 'Studio 02 Chambre 01 salon.',
   },
 
     {
@@ -195,7 +195,7 @@ const servicesData = [
     title: 'Studio meublé',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+    description: 'Studio 02 Chambre 01 salon.',
   },
 
     {
@@ -205,7 +205,7 @@ const servicesData = [
     title: 'Studio meublé',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+    description: 'Studio 02 Chambre 01 salon.',
   },
 
 {
@@ -215,7 +215,7 @@ const servicesData = [
     title: 'Studio meublé',
     price: '350 000 FCFA/mois',
     location: 'Yaoundé, Bastos',
-    description: 'Appartement 2 chambres avec cuisine équipée.',
+    description: 'Studio 02 Chambre 01 salon.',
   },
 
 
